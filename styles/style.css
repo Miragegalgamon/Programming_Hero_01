@@ -1,0 +1,216 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'PT Sans', sans-serif;
+}
+footer{
+    height: 60vh;
+    width: 100%;
+    background-color: #333;
+}
+.footer_text{
+    color: white;
+    font-size: 20px;
+   padding-top: 25px;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 75px;
+    text-align: right;
+
+}
+h2{
+    color: #022341;
+    font-size: 50px;
+}
+
+h3{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+h5{
+    color: #021525;
+    font-size: 35px;
+
+}
+p{
+    font-size: 20px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px
+}
+ol li{
+    display: block;
+    padding: 10px
+}
+/* Home pag Start */
+.home{
+    background-image: url("../images/banner/banner3.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+.homeContent{
+    align-items: right;	
+    width: 35%;
+    padding: 10% 5% 25% 55%;
+}
+.homeText{
+    text-align: right;
+    color: white;
+    font-size: 25px;
+
+}
+.homeButton {
+    background:  #ffffff;
+    border: 0px;
+    border-radius: 10px;
+    color: #0360b4;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 30px;
+}  
+.homeButton:hover {
+    background: #000d18;
+    color: #ffffff;
+    cursor: pointer;
+}
+/* Reasons Page starts*/
+.reasonsPage{
+    background-size: cover;
+    display: inline;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.reasonContent{	
+    width: 35%;
+    position: relative;
+    right: -20%;
+    bottom: 300px;
+
+}
+
+.reasonImage{
+    width: 100%;
+    height: 100%;
+    padding: 20% 35%;
+}
+.reasonText{
+    font-size: 20px;
+}
+.tick{
+    color: #0360b4;
+    font-size: 25px;
+    padding-right: 25px;
+}
+/* Goal Page starts*/
+.goalPage{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+}
+.goalItem{
+    padding: 50px;
+}
+.goalText{
+    color: #333;
+    font-size: 30px;
+    padding-top: 25px;
+}
+/* Help page starts */
+.helpPage{
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+}
+.helpBanner{
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0), rgb(11, 145, 255)),
+    url("../images/watch.png");
+    background-size: cover;
+    color: #98c1e6;
+    height: 100%;
+    width: 70%;
+    text-align: left;
+    margin: 15%;
+    border: 0px;
+    border-radius: 10px;
+
+}
+.helpContent{
+    width: 50%;
+    padding: 5% 5% 25% 5%;
+}
+.footerPage{
+    display: flex;
+}
+.footerContent{
+    width: 40%;
+    padding: 5% 5% 0% 15%;
+}
+.footerText{
+    color: #ffffff;
+    font-size: 20px;
+}
+.footerSub{
+
+    width: 100%;
+    padding: 5% 5%;
+}
+.footerSub{
+    background-color: #333;
+    border-radius: 10px;
+    border: solid #ffffff;
+    width: 400px;
+
+}
+.subBtn{
+    background:  #0360b4;
+    border: 0px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px 30px;
+    margin: 10px;
+}
+.subBtn:hover {
+    background: #000d18;
+    color: #ffffff;
+    cursor: pointer;
+}
+.processPage{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.ProcessPage h2{
+    padding-bottom: 5%;
+}
+.processContent{
+    display: flex;
+    gap: 24px;
+}
+.processList{
+    width: 135%;
+    padding-left: 15%;
+
+}
+.process{
+    width: 10%;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+}
+.processIcon{
+    font-size: 100px;
+    color: #0360b4;
+}
